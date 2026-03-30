@@ -7,7 +7,7 @@ interface StatCardProps {
   icon: LucideIcon;
   trend?: "up" | "down" | "neutral";
 }
-
+ 
 export default function StatCard({ title, value, subtitle, icon: Icon }: StatCardProps) {
   return (
     <div className="rounded-xl border bg-card p-6 shadow-sm">
